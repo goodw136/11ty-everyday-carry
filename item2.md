@@ -1,7 +1,11 @@
 ---
 layout: layout.liquid
-title: Item 1
+title: Item 2
 ---
 
-# Everyday Carry #1: Water Bottle
-<img class="item1" alt="bottle" src="/_site/_site/images/waterbottle.jpeg" width = "500" />
+{% itemTitle 2 "Tylenol" %}
+<img class="pageItem" alt="tylenol" src="/images/tylenol.jpeg" width="500" />
+
+##### Description: A container of 500mg Extra Strength Tylenol.
+
+### Why I Never Leave Without It: For a large part of my life, I've suffered with really bad headaches (especially when tired or stressed), which often get so painful that they become legitimately debilitating. Out of everything I've tried, this kind of Tylenol is the only thing that's actually been effective at neutralizing them, thus I keep it with me in case I ever start to feel one coming on.
